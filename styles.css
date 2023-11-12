@@ -1,0 +1,266 @@
+body {
+    background-color: #fef6f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Specific layout styles, for amongst others footer */
+* {
+    box-sizing: border-box
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+@font-face {
+    font-family: WorkSansBold;
+    src: url(fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(fonts/WorkSans-Regular.ttf);
+}
+
+h1 {
+    font-size: 2em;
+    color: #c87d52;
+    font-family: WorkSansBold;
+}
+
+h2,
+h3,
+h4 {
+    font-family: WorkSansRegular;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+#promo-header {
+
+    font-family: WorkSansBold;
+    font-variant: small-caps;
+}
+
+nav {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto 10px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: WorkSansRegular;
+}
+
+nav>ul>li a:hover {
+    color: #ffd0c9;
+}
+
+#main-header {
+    background-color: #c87d52;
+}
+
+#main-content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+#left-menu {
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+#left-menu>a>img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #ffd0c9;
+    padding: 30px;
+}
+
+.menu-logo {
+    width: 175px;
+    margin-right: 30px;
+
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+.page-header-small {
+
+    font-family: WorkSansRegular;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0.2rem;
+}
+
+.small-menu {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.small-menu>li>a {
+    font-family: WorkSansRegular;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: #c87d52;
+}
+
+.aside-header {
+    text-align: center;
+    font-family: WorkSansBold;
+    text-transform: uppercase;
+
+}
+
+/* Form related */
+
+form {
+    padding: 25px;
+}
+
+input[type=text],
+input[type=date],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    font-family: WorkSansRegular;
+
+}
+
+input[type=submit] {
+    background-color: #c87d52;
+    color: black;
+    font-family: WorkSansRegular;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    font-family: WorkSansRegular;
+    text-transform: uppercase;
+    font-size: 0.9em;
+
+}
+
+fieldset {
+    padding: 16px;
+    border-radius: 10px;
+    border-color: #c87d52;
+    margin-bottom: 30px;
+}
+
+legend {
+    margin-bottom: 0px;
+    margin-left: 16px;
+    font-family: WorkSansRegular;
+    text-transform: uppercase;
+}
+
+/*
+h2 {
+    text-decoration: underline;
+}
+
+ #promo {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+
+}
+
+.intro-text {
+    font-size: small;
+}
+
+.intro-text h3 {
+    font-size: 20px;
+    color: #c87d52;
+}
+
+a:link {
+    color: #c87d52;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: #c87d52;
+
+}
+
+a:active {
+    color: lightcoral;
+}
+
+.main-content > p {
+    background-color: #c87d52;
+} */
