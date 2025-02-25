@@ -1,0 +1,164 @@
+body {
+    background-color:rgb(252, 245, 234); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: WorkSansBold;
+    src: url(fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(fonts/WorkSans-Regular.ttf);
+}
+
+h1 {
+    font-size: 40px; 
+    color: rgba(198, 117, 2, 0.904);
+    font-family: WorkSansBold;
+}
+
+h2{
+    font-family: WorkSansBold;
+}
+
+#promo-header{
+    font-family:WorkSansBold;
+    text-transform: uppercase;
+}
+
+#promo{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+#main-header{
+    background-color: rgb(175, 89, 3);
+}
+
+nav{
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto 10px;
+}
+
+#main-content{
+    width: 1000px;
+    margin: 0 auto  ;
+}
+
+#left-menu{
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+#main{
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: -350px;
+}
+
+footer{
+    background-color: rgb(148, 74, 0);
+    color: white;
+    padding: 30px;
+    clear: both;
+
+}
+
+.menu-logo{
+    width: 175px;
+    margin-right: 30px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+.page-header-small {
+
+    font-family: WorkSansRegular;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0.2rem;
+}
+
+
+.small-menu {
+    list-style-type: none;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.small-menu>li>a{
+    font-family: WorkSansRegular;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: #c87d52;
+}
+
+
+.aside-header {
+    text-align: center;
+    font-family: WorkSansBold;
+    text-transform: uppercase;
+
+}
+
+
+#left-menu>a>img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: WorkSansRegular;
+}
+
+nav>ul>li a:hover {
+    color: #ffd0c9;
+}
