@@ -1,10 +1,10 @@
 body {
-    background-color:rgb(252, 245, 234); 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(252, 245, 234);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 @font-face {
@@ -37,53 +37,61 @@ h2{
     color: white;
     font-weight: bold;
 }
+#promos img{
+    width: 100%;
+}
 
-#main-header{
+#main-header {
     background-color: rgb(175, 89, 3);
+    padding: 10px 20px;
 }
 
-nav{
+nav {
     height: 80px;
-    width: 1000px;
-    margin: 0 auto 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#main-content{
-    width: 1000px;
-    margin: 0 auto  ;
+#main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    gap: 50px;
 }
 
-#left-menu{
-    float: left;
+#left-menu {
     width: 30%;
     padding-top: 20px;
-    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 #wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+    flex: 1;
 }
 
-#main{
-    float: right;
+#main {
     width: 70%;
     margin-bottom: 20px;
-    margin-top: -350px;
 }
 
-footer{
+footer {
     background-color: rgb(148, 74, 0);
     color: white;
     padding: 30px;
-    clear: both;
-
+    text-align: center;
 }
 
-.menu-logo{
+
+.menu-logo {
     width: 175px;
     margin-right: 30px;
 }
@@ -138,18 +146,21 @@ table, td, th {
     
 }
 
-nav>ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-nav>ul>li {
-    float: left;
+nav > ul > li {
+    display: flex;
+    align-items: center;
 }
 
-nav>ul>li a {
+nav > ul > li a {
     display: block;
     color: white;
     text-align: center;
@@ -159,7 +170,7 @@ nav>ul>li a {
     font-family: WorkSansRegular;
 }
 
-nav>ul>li a:hover {
+nav > ul > li a:hover {
     color: #ffd0c9;
 }
 
@@ -219,8 +230,139 @@ legend {
     text-transform: uppercase;
 }
 
+.menu-toggle {
+    display: none;
+ 
+}
 
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
 
+    nav > ul {
+        flex-direction: column;
+        width: 100%;
+        background: rgb(175, 89, 3);
+        display: none;
+        padding: 10px 0;
+    }
 
+    nav > ul.show-menu {
+        display: flex;
+    }
 
+    nav > ul > li {
+        width: 100%;
+        text-align: center;
+    }
 
+    nav > ul > li a {
+        display: block;
+        padding: 12px;
+        width: 100%;
+    }
+
+   
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    
+    #main-content {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex: 1;
+        gap: 50px;
+    }
+
+    h1 {
+        font-size: 40px; 
+        color: rgba(198, 117, 2, 0.904);
+        font-family: WorkSansBold;
+        text-align: center;
+    }
+
+    #main {
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    
+}
+@media (max-width: 480px) {
+    .menu-logo {
+        width: 120px;
+    }
+
+    nav {
+        padding: 5px 15px;
+    }
+
+    .menu-toggle {
+        font-size: 26px;
+    }
+
+    #main-content {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 50px;
+    }
+
+    #left-menu {
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main {
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 35px; 
+        color: rgba(198, 117, 2, 0.904);
+        font-family: WorkSansBold;
+        text-align: center;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    footer {
+        background-color: rgb(148, 74, 0);
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0;
+    }
+    
+    
+}

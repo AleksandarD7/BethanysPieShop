@@ -8,30 +8,28 @@
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.png" type="image/png">
-    <script data-name="BMC-Widget" data-cfasync="false"
+    <!-- <script data-name="BMC-Widget" data-cfasync="false"
               src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="aleksandard7"
               data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF"
-              data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+              data-position="Right" data-x_margin="18" data-y_margin="18"></script> -->
 </head>
 
 <body>
     <div id="wrapper">
-    <header id="main-header">
-        <nav>
-            <ul>
-                <li><img src="images/logos/bethany-horizontal-logo.png" class="menu-logo" /></li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="pieoverview.html">PIES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-
- 
-            </ul>
-        </nav>
-        
-    </header>
+        <header id="main-header">
+            <nav>
+                <img src="images/logos/bethany-horizontal-logo.png" class="menu-logo" />
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pieoverview.html">PIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
     <div id="main-content">  
-        <aside id="left-menu"> 
+        <div id="left-menu"> 
         <a href="index.html"><img src="images/logos/bethany-badge-logo.png" width="150px"/></a>
         <header> 
             <p class="aside-header"> Browse our pies </p>
@@ -44,7 +42,7 @@
             <li> <a href="#promos"> Promotions</a></li>
         </ul>
         
-        </aside>
+        </div>
     <main id="main">
         <article>
             <header>
@@ -87,8 +85,8 @@
             <h3 id="promo-header">Our weekly promotions</h3>
             <h4>Pecan pie</h4>
             $12.95 - serves 4<br>
-            <img src="https://gillcleerenpluralsight.blob.core.windows.net/files/pecan-pie.jpg" width="500"
-            alt="Pecan Pie" height="300" />
+            <img src="https://gillcleerenpluralsight.blob.core.windows.net/files/pecan-pie.jpg" 
+            alt="Pecan Pie"  />
             <br><br>
         </section>
     </main>
@@ -100,6 +98,7 @@
             <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
     </footer>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
-
