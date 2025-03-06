@@ -33,19 +33,18 @@ window.onload = function(){
 
 <body>
     <div id="wrapper">
-    <header id="main-header">
-        <nav>
-            <ul>
-                <li><img src="images/logos/bethany-horizontal-logo.png" class="menu-logo" /></li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="pieoverview.html">PIES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-
-
-            </ul>
-        </nav>
-    </header>
+        <header id="main-header">
+            <nav>
+                <img src="images/logos/bethany-horizontal-logo.png" class="menu-logo" />
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pieoverview.html">PIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
     <div id="main-content">  
         <aside id="left-menu"> 
         <a href="index.html"><img src="images/logos/bethany-badge-logo.png" width="150px"></a>
@@ -67,8 +66,7 @@ window.onload = function(){
                 <p class="page-header-small">Apple pie</p>
             </header>
             <figure>
-               <img
-                        src="images/products/fruitpies/apple-pie-small.jpg" width="600" alt="Apple pie" />
+               <img id="applepie" src="images/products/fruitpies/apple-pie-small.jpg" width="600" alt="Apple pie" />
                 <figcaption>Our world-famous apple pie</figcaption>
             </figure>
 
@@ -173,6 +171,7 @@ window.onload = function(){
         <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
     </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
 

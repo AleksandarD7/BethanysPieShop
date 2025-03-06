@@ -301,6 +301,42 @@ legend {
         align-items: center;
     }
 
+    figure {
+        margin: auto ;
+        }
+    
+        #applepie {
+            width: 100%;
+        }
+
+    iframe {
+        width: 140%;
+        height: 300px;
+        border: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #main-pie {
+        font-size: 13px;
+        margin-bottom: 10px;
+        
+    }
+
+    .page-header-small {
+
+        font-family: WorkSansRegular;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+        letter-spacing: 0.2rem;
+    }
+
     
 }
 @media (max-width: 480px) {
@@ -346,9 +382,7 @@ legend {
         text-align: center;
     }
 
-    figure {
-        margin: 0;
-    }
+    
 
     footer {
         background-color: rgb(148, 74, 0);
@@ -363,6 +397,43 @@ legend {
         flex: 1;
         margin: 0;
     }
+
+
+    figure {
+    margin: auto ;
+    }
+
+    #applepie {
+        width: 100%;
+    }
+
+    iframe {
+        width:110%;
+        height: 200px;
+        border: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     
+    #main-pie {
+        font-size: 13px;
+        margin-bottom: 10px;
+        
+    }
+
+    .page-header-small {
+
+        font-family: WorkSansRegular;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+        letter-spacing: 0.2rem;
+    }
+
     
 }
