@@ -266,7 +266,6 @@ legend {
         width: 100%;
     }
 
-   
     .menu-toggle {
         display: block;
         background: none;
@@ -435,6 +434,14 @@ legend {
         letter-spacing: 0.2rem;
     }
 
+
+    #bmc-close-btn{
+        margin-top: 20px;
+    }
     
-    
+    #bmc-iframe{
+        left: 1%;
+        top: 1%;
+        bottom: 1%;
+    }
 }
