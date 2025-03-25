@@ -1,0 +1,54 @@
+
+     [
+      {
+        "image": "images/products/fruitpies/apple-pie-small.jpg",
+        "name": "Apple pie",
+        "description": "Our famous apple pie",
+        "price": "$14.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/Seasonal/cranberry-pie-small.jpg",
+        "name": "Cranberry pie",
+        "description": "A Christmas favorite",
+        "price": "$18.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/fruitpies/cherry-pie-small.jpg",
+        "name": "Cherry pie",
+        "description": "A summer classic!",
+        "price": "$18.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/fruitpies/peach-pie-small.jpg",
+        "name": "Peach pie",
+        "description": "Sweet as peach",
+        "price": "$18.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/fruitpies/rhubarb-pie-small.jpg",
+        "name": "Rhubarb Pie",
+        "description": "My God, so sweet!",
+        "price": "$21.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/fruitpies/strawberry-pie-small.jpg",
+        "name": "Strawberry Pie",
+        "description": "Our delicious strawberry pie!",
+        "price": "$18.95",
+        "details": "applepie.html"
+      },
+      {
+        "image": "images/products/fruitpies/pecan-pie-small.jpg",
+        "name": "Pecan Pie",
+        "description": "Simple but good",
+        "price": "$14.95",
+        "details": "applepie.html"
+      }
+    ]
+  
+  

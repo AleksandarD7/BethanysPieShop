@@ -1,0 +1,115 @@
+[
+    {
+      "image": "images/products/cheesecakes/cheesecake-small.jpg",
+      "name": "Cheese cake",
+      "description": "Plain cheese cake. Plain pleasure.",
+      "price": "$12.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/apple-pie-small.jpg",
+      "name": "Apple pie",
+      "description": "Our famous apple pie",
+      "price": "$14.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/Seasonal/cranberry-pie-small.jpg",
+      "name": "Cranberry pie",
+      "description": "A Christmas favorite",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/cherry-pie-small.jpg",
+      "name": "Cherry pie",
+      "description": "A summer classic!",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/peach-pie-small.jpg",
+      "name": "Peach pie",
+      "description": "Sweet as peach",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/Seasonal/pumpkin-pie-small.jpg",
+      "name": "Pumpkin pie",
+      "description": "Our Halloween favorite",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/Seasonal/christmas-applepie-small.jpg",
+      "name": "Christmas apple pie",
+      "description": "Happy holidays with this pie!",
+      "price": "$19.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/cheesecakes/blue-berry-cheesecake-small.jpg",
+      "name": "Blueberry cheese cake",
+      "description": "You'll love it!",
+      "price": "$17.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/cheesecakes/chocolate-cheesecake-small.jpg",
+      "name": "Chocolate Cheese Cake",
+      "description": "With extra Belgian chocolate!",
+      "price": "$22.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/rhubarb-pie-small.jpg",
+      "name": "Rhubarb Pie",
+      "description": "My God, so sweet!",
+      "price": "$21.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/strawberry-pie-small.jpg",
+      "name": "Strawberry Pie",
+      "description": "Our delicious strawberry pie!",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/cheesecakes/strawberry-cheesecake-small.jpg",
+      "name": "Strawberry Cheese Cake",
+      "description": "One of the best cheese cakes you'll ever find!",
+      "price": "$18.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/cheesecakes/caramel-popcorn-cheesecake.jpg",
+      "name": "Caramel Popcorn Cheese Cake",
+      "description": "We thought it wouldn't be possible but it worked!",
+      "price": "$22.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/cheesecakes/pistache-cheesecake-small.jpg",
+      "name": "Pistache Cheese Cake",
+      "description": "Go nuts over this cheesecake",
+      "price": "$19.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/fruitpies/pecan-pie-small.jpg",
+      "name": "Pecan Pie",
+      "description": "Simple but good",
+      "price": "$14.95",
+      "details": "applepie.html"
+    },
+    {
+      "image": "images/products/Seasonal/birthday-pie-small.jpg",
+      "name": "Birthday Pie",
+      "description": "A happy one!",
+      "price": "$25.95",
+      "details": "applepie.html"
+    }
+  ]
+  

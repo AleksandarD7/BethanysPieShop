@@ -1,0 +1,25 @@
+ [
+      {
+        "image": "images/products/Seasonal/pumpkin-pie-small.jpg",
+        "name": "Pumpkin pie",
+        "description": "Our Halloween favorite",
+        "price": "$18.95",
+        "details": "View details"
+      },
+      {
+        "image": "images/products/Seasonal/christmas-applepie-small.jpg",
+        "name": "Christmas apple pie",
+        "description": "Happy holidays with this pie!",
+        "price": "$19.95",
+        "details": "View details"
+      },
+      {
+        "image": "images/products/Seasonal/birthday-pie-small.jpg",
+        "name": "Birthday Pie",
+        "description": "A happy one!",
+        "price": "$25.95",
+        "details": "View details"
+      }
+    ]
+  
+  
